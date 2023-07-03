@@ -1,0 +1,15 @@
+D:\Git\ClassProjects\P-CSA090123\bin\Debug\net7.0\P-CSA090123.exe
+D:\Git\ClassProjects\P-CSA090123\bin\Debug\net7.0\P-CSA090123.deps.json
+D:\Git\ClassProjects\P-CSA090123\bin\Debug\net7.0\P-CSA090123.runtimeconfig.json
+D:\Git\ClassProjects\P-CSA090123\bin\Debug\net7.0\P-CSA090123.dll
+D:\Git\ClassProjects\P-CSA090123\bin\Debug\net7.0\P-CSA090123.pdb
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.csproj.AssemblyReference.cache
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.AssemblyInfoInputs.cache
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.AssemblyInfo.cs
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.csproj.CoreCompileInputs.cache
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.dll
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\refint\P-CSA090123.dll
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.pdb
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\P-CSA090123.genruntimeconfig.cache
+D:\Git\ClassProjects\P-CSA090123\obj\Debug\net7.0\ref\P-CSA090123.dll
