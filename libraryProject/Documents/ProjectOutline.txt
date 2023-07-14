@@ -1,0 +1,6 @@
+﻿Project Outline:
+Build a program for use in a library. 
+It is going to be run on a single computer only but should connect to a database to store all the information. 
+The objectives for the system are shown in DIR:LibraryProject\DOCUMENTS\ProjectObjectives.
+
+Daniel Swery: 1515 - 1CSAA1

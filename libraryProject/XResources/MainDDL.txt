@@ -1,0 +1,46 @@
+﻿CREATE TABLE Authors
+(
+AuthorID int IDENTITY(1, 1) UNIQUE NOT NULL,
+FullName Varchar(100) NOT NULL,
+PRIMARY KEY (AuthorID)
+)
+
+CREATE TABLE Books
+(
+ISBN Char(13) UNIQUE NOT NULL,
+Title Varchar(100) NOT NULL,
+Description Varchar(2000),
+PRIMARY KEY(ISBN)
+)
+
+CREATE TABLE Members
+(
+MemberID int IDENTITY(1, 1) UNIQUE NOT NULL,
+FirstName Varchar(50) NOT NULL,
+LastName Varchar(50) NOT NULL,
+Email Varchar(50) UNIQUE,
+PhoneNumber Char(11) UNIQUE,
+PRIMARY KEY (MemberID)
+)
+
+CREATE TABLE Loans
+(
+LoanID int IDENTITY(1, 1) NOT NULL,
+MemberID int NOT NULL,
+ISBN Char(13) NOT NULL,
+LoanDate DATE NOT NULL,
+DueDate DATE NOT NULL,
+ReturnedDate DATE,
+PRIMARY KEY (LoanID),
+CONSTRAINT FK_MemberLoans FOREIGN KEY (MemberID) REFERENCES Members(MemberID),
+CONSTRAINT FK_BooksLoans FOREIGN KEY (ISBN) REFERENCES Books(ISBN)
+)
+
+CREATE TABLE BookAuthors
+(
+ISBN Char(13) NOT NULL,
+AuthorID int NOT NULL,
+PRIMARY KEY (ISBN, AuthorID),
+CONSTRAINT FK_AuthorBookAuthors FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID),
+CONSTRAINT FK_BooksBookAuthors FOREIGN KEY (ISBN) REFERENCES Books(ISBN)
+)

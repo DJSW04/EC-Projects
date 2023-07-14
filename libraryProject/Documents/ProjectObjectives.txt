@@ -1,0 +1,47 @@
+﻿BOOKS OBJECTIVES1.1. You must store the author, book title, ISBN and description 
+1.2. You must be able to add, remove and update books in the library catalogue
+1.3. You should not be able to add a book without an author, title or ISBN. The book description can remain empty.
+1.4. You must be able to search and find a partial match for any of the fields in the book table.
+1.5. You should be able to delete a book but only if it is not currently out on loan. If there are 
+	 entries for the book in the loan table, it should warn you that this will also delete all entries 
+	 for that book in the loan table as well and that it cannot be undone, then give you the 
+	 option to do this or not.
+
+AUTHORS OBJECTIVES
+2.1. You must store the full name of the author
+2.2. You must be able to add and edit authors
+2.3. You should be able to delete an author from the database. If there is a book with that 
+	 author that exists in the database, it shouldn’t allow you to delete the author and instead 
+	 ask you to first delete all [number] books that author has.
+
+MEMBERS OBJECTIVES
+3.1. You must store the first and last names, email addresses and phone numbers of the members. You do not need to store a country code for the phone number.
+3.2. Members must provide their first and last names but an email and phone number are not compulsory.
+3.3. You must be able to add, remove or edit Members. But you should not be able to delete them if they have overdue loans.
+3.4. When you delete a member with entries in the loans table. It should warn you that you also need to delete all the records of all their loans and this cannot be undone, 
+	 then give you the option to do this or not.
+
+LOANS OBJECTIVES
+4.1. The library only stores one copy of each book
+4.2. You must store the date the loan was made, the date it is due and the date it was actually returned (this should be null if it is out on loan). 
+	 You should also link a loan to a book and a member.
+4.3. You must be able to loan a book, edit the details (for example, change the date it is due back) and mark a loan as returned. 
+4.4. You should be able to delete a loan regardless of whether it has been returned or not. If the 
+	 loan has not been returned, it should prompt the user that if the book hasn’t been 
+	 returned, and that the book will need to be deleted too (and if necessary all loans 
+	 associated with that book as well).
+4.5  A Loan can only consist of one book
+
+REPORTS OBJECTIVES
+5.1. A list of all books taken out by a specific member between two dates or leave it blank to select no start date, no end date or to select all loans regardless of dates. 
+	 It should be ordered by date but the user should be able to choose whether to put it in ascending or descending order.
+5.2. A list of all books that are overdue, how many days they are overdue and the names of who has each book on loan. 
+	 The user should be able to specify which of these 3 fields they want to sort this on and the should be able to choose ascending or descending.
+5.3. A list of all books in the library and how many times they have been taken out between two dates. 
+	 There should be the option to order this by book title or number of times remove and you should be able to specify whether you want it in descending or ascending order.
+5.4. There should be a button that exports these reports into a text file for printing and the 
+	 librarian wants to choose the save file name and location
+
+USER EXPERIENCE
+6.1. There is no need for a login as this is only accessible on the librarians computer
+6.2. It should give a warning before deleting or updating any records and ask for confirmation before proceeding, warning that changes cannot be undone.

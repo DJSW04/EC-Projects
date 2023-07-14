@@ -1,0 +1,20 @@
+﻿ALGORITHMS AND SQL
+- BOOKS
+	o Add a book
+	o Search books
+	o Update book details
+	o Deleting a book
+- MEMBER
+	o Add a member
+	o Updating a member’s details
+	o Deleting a member
+- LOANS
+	o Issue a loan
+	o Extending a loan
+	o Returning a loaned book
+- AUTHOR
+	o Adding an author
+	o Editing an author’s name
+	o Deleting an author- REPORTS 	o Loans by member report 
+	o Overdue books report
+	o How many times each book has been borrowed
